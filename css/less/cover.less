@@ -29,7 +29,6 @@ body {
 }
 body {
   color: #fff;
-  text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
@@ -45,11 +44,9 @@ body {
   left: 50%;
   z-index: 999;
   color: #fff;
-  background: rgba(0,0,0,0.5);
+  //background: rgba(0,0,0,0.5);
   padding: 60px;
   width: 400px;
-  height: 400px;
-  border-radius: 50%;
   margin: -200px 0 0 -200px;
   text-align: center;
 }
@@ -77,23 +74,24 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #fff;
   border-bottom: 2px solid transparent;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: #fff;
+  border-bottom-color: #fff;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #f00;
+  border-bottom: none;
 }
 
 @media (min-width: 768px) {
@@ -156,8 +154,6 @@ body {
 }
 
 @media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
   .cover-container {
     width: 700px;
   }
