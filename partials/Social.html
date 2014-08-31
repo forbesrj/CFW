@@ -1,6 +1,28 @@
-<div class="content">
+<div class="content" style="width: 100%; margin: 0;">
     <h1>Colorado <b>Fashion</b> Week <b>Social</b></h1>
     <div id="social-stream"></div>
 </div>
+<script>
+    $('#social-stream').dcSocialStream({
+        feeds: {
+            rss: {
+                id: 'http://coloradofashionweek.ning.com/profiles/blog/feed?promoted=1&xn_auth=no'
+            },
+            facebook: {
+                id: '132270606858975'
+            }
+        },
+        rotate: {
+            delay: 0
+        },
+        control: false,
+        filter: true,
+        wall: true,
+        cache: false,
+        max: 'limit',
+        limit: 10,
+        iconPath: 'media/img/dcsns-dark/',
+        imagePath: 'media/img/dcsns-dark/'
+    });
+</script>
 
-<script src="../js/social-wall.js"></script>
