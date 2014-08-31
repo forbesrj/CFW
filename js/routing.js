@@ -7,5 +7,9 @@ app.config(['$routeProvider', function($routeProvider){
     $routeProvider
         .when('/about', {templateUrl:'partials/about.html'})
         .when('/media', {templateUrl:'partials/media.html'})
+        .when('/press', {templateUrl:'partials/press.html'})
+        .when('/social', {templateUrl:'partials/social.html'})
+        .when('/schedule', {templateUrl:'partials/schedule.html'})
+        .when('/talent', {templateUrl:'partials/talent.html'})
         .otherwise({redirectTo: '/', templateUrl:'partials/home.html'})
 }]);
