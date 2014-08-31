@@ -6,5 +6,6 @@ var app = angular.module('cfwModule', ['ngRoute']);
 app.config(['$routeProvider', function($routeProvider){
     $routeProvider
         .when('/about', {templateUrl:'partials/about.html'})
+        .when('/media', {templateUrl:'partials/media.html'})
         .otherwise({redirectTo: '/', templateUrl:'partials/home.html'})
 }]);

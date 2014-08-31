@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="cfwModule">
 <head lang="en">
     <meta charset="UTF-8">
     <title>Colorado Fashion Week</title>
@@ -8,49 +8,48 @@
     <link href="css/cover.css" type="text/css" rel="stylesheet">
     <link href="bower_components/BigVideo.js/css/bigvideo.css" type="text/css" rel="stylesheet">
     <link href="css/global.css" type="text/css" rel="stylesheet">
+
     <script src="bower_components/modernizer/modernizr.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="js/lib/jquery.imagesloaded.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/routing.js"></script>
+    <script src="js/controllers.js"></script>
 </head>
 <body>
 <div class="site-wrapper">
     <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-            <div class="inner cover">
-                <h1 class="cover-heading">Colorado <b>Fashion</b> Week</h1>
-                <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-default">Learn more</a>
-                </p>
-            </div>
+        <div ng-view>
 
         </div>
 
-        <div class="masthead clearfix">
+
+        <div class="masthead clearfix" ng-controller="HeaderController">
             <div class="inner">
-                <h3 class="masthead-brand"></h3>
+                <h3 class="masthead-brand">Colorado <b>Fashion</b> Week</h3>
                 <ul class="nav masthead-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Media</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Social</a></li>
-                    <li><a href="#">Schedule</a></li>
-                    <li><a href="#">Talent</a></li>
+                    <li ng-class="{ active: isActive('/')}"><a href="./#/">Home</a></li>
+                    <li ng-class="{ active: isActive('/media')}"><a href="./#/media">Media</a></li>
+                    <li ng-class="{ active: isActive('/about')}"><a href="./#/about">About</a></li>
+                    <li ng-class="{ active: isActive('/press')}"><a href="./#/press">Press</a></li>
+                    <li ng-class="{ active: isActive('/social')}"><a href="./#/social">Social</a></li>
+                    <li ng-class="{ active: isActive('/schedule')}"><a href="./#/schedule">Schedule</a></li>
+                    <li ng-class="{ active: isActive('/talent')}"><a href="./#/talent">Talent</a></li>
                 </ul>
             </div>
         </div>
 
-        <div class="mastfoot">
+        <footer class="mastfoot">
             <div class="inner">
-                <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                <p>Brought to you by <a href="http://thejtagroup.com">The JTA Group</a>. Site powered by <a href="http://justbettercode.com">Just Better Code</a>.</p>
             </div>
-        </div>
+        </footer>
 
     </div>
 </div>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-<script src="js/jquery/jquery.imagesloaded.min.js"></script>
 <script src="//vjs.zencdn.net/4.3/video.js"></script>
 <script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
 <script src="js/background-movie.js"></script>
