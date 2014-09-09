@@ -1,4 +1,5 @@
-<div class="content">
+<div class="content" ng-controller="AboutController">
+    <a id="top"></a>
     <ul id="aboutTabs" class="nav nav-tabs">
         <li class="active"><a href="#about" role="tab" data-toggle="tab">About</a></li>
         <li><a href="#mission" role="tab" data-toggle="tab">Mission</a> </li>
@@ -7,6 +8,7 @@
     </ul>
     <div class="tab-content">
         <div class="tab-pane active" id="about">
+            <h1><b>About</b> Colorado <b>Fashion</b> Week</h1>
             <p><span class="cfw-name">COLORADO <b>FASHION</b> WEEK</span> is the premier fashion industry trade and marketing event dedicated to building an economically sustainable and a highly respected professional fashion industry in Colorado.</p>
             <p>Each year, Colorado Fashion Week will present the collections of the most promising emerging and established fashion designers and brands as part of the international fashion business calendar in the beautiful City of Denver, Colorado.  Starting in 2013 CFW will return as a biannual fashion marketing and trade event in April/May and September/October of every year.</p>
             <p>The vision and purpose of Colorado Fashion Week is to build Colorado’s international fashion industry presence as well as elevate Denver’s brand as a City—on the national level;</p>
@@ -16,34 +18,33 @@
             </ul>
             <p>In Colorado Fashion Week’s inaugural year, we presented eight different fashion designers and one boutique with a combined total of over 225 garments going down the runway and more than 1,200 spectators attending throughout the week.   </p>
             <p>For CFW 2013, we anticipate an even greater production value level and a much higher turn out.  Our committed sponsors of CFW 2013 include Seawell Grand Ballroom at the Denver Center for the Arts, JW Marriott at Cherry Creek, Telemundo, RoofStar Colorado, GlowMundo and Collage Magazine. </p>
-            <h1><b>About</b> Colorado <b>Fashion</b> Week</h1>
+
         </div>
 
         <div class="tab-pane" id="mission">
+            <h1>Colorado <b>Fashion</b> Week <b>Mission</b></h1>
             <ul>
                 <li>To position Colorado as the fashion capital of the West.</li>
                 <li>To present one highly centralized and professionally organized fashion industry event in Colorado.</li>
                 <li>To purposefully produce and promote the strongest future generation of fashion industry professionals.</li>
             </ul>
-            <h1>Colorado <b>Fashion</b> Week <b>Mission</b></h1>
         </div>
 
         <div class="tab-pane" id="agenda">
+
+            <h1>Colorado <b>Fashion</b> Week Strategic Business Growth <b>Vision</b></h1>
             <ul>
                 <li>To exist as the career launching pad for the very serious emerging fashion designer and creative talent.   </li>
                 <li>To achieve these projected goals by strategically inviting emerging and established designers known for their cutting edge approaches to the business of fashion, beauty and innovation in design.</li>
             </ul>
-
-            <h1>Colorado <b>Fashion</b> Week Strategic Business Growth <b>Agenda</b></h1>
         </div>
 
         <div class="tab-pane" id="contact">
-            <p>Justice Kwesi Kwarteng, BFA, MFA</p>
-            <p>Email <a href="mailto:justice@thejtagroup.com">justice@thejtagroup.com</a> </p>
-            <p>Email <a href="mailto:info@coloradofashionweek.com">info@coloradofashionweek.com</a> </p>
             <h1><b>Contact</b> Colorado <b>Fashion</b> Week</h1>
+            <p>Email <a href="mailto:info@coloradofashionweek.com">info@coloradofashionweek.com</a> </p>
         </div>
     </div>
+    <h3 class="pull-right"><a ng-click="goToTop()">Back to <b>top</b></a></h3>
 </div>
 <script>
     $('.nav-tabs>li>a').click(function (e) {
