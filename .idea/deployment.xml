@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="PublishConfigData" uploadOnCheckin="f4455575-2506-4b87-ae00-a3ab9a813e40">
+    <serverData>
+      <paths name="JBC">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/CFW" local="$PROJECT_DIR$" web="/CFW" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
     <option name="myUploadOnCheckinName" value="JBC" />
   </component>
 </project>
