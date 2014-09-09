@@ -7,6 +7,10 @@ body{
   background-color: @black;
 }
 
+.lower{
+  text-transform: lowercase !important;
+}
+
 /*Branding*/
 .logo{
   float: left;
@@ -66,10 +70,21 @@ p{
 }
 
 /*Press*/
-#media img{
-  margin: auto;
-  text-align: center;
-  max-height: 150px;
-  padding: 20px;
-  border-radius: 30px;
+#media {
+  div.row{
+    background-color: @white;
+  }
+  img {
+    margin: auto;
+    text-align: center;
+    max-height: 150px;
+    padding: 10px;
+  }
+}
+
+/*window resizing*/
+@media (max-width: 1152px) {
+  .nav-tabs>li {
+    margin: 0;
+  }
 }
