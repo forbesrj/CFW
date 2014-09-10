@@ -91,9 +91,26 @@ p{
   }
 }
 
-/*window resizing*/
+/*Responsiveness*/
 @media (max-width: 1152px) {
+  .content{
+    margin: 0;
+    width: auto;
+    top: 135px;
+    padding-top: 10px;
+  }
   .nav-tabs>li {
     margin: 0;
+    &>a{
+      border: none;
+    }
   }
 }
+
+@media(max-width: 380px){
+  .content{
+    top: 275px;
+    padding: 10px;
+  }
+}
+
