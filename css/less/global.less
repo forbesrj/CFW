@@ -1,10 +1,15 @@
+/*Colors*/
 @red: #ff0000;
 @white: #ffffff;
 @black: #000000;
+/*Fonts*/
+@bodyFont: 'PT Sans Narrow', sans-serif;
+@headerFont: 'Raleway', Arial, sans-serif;
 
 /*Defaults*/
 body{
   background-color: @black;
+  font-family: @bodyFont;
 }
 
 .lower{
@@ -18,7 +23,8 @@ body{
 
 /*Headers*/
 h1,h2,h3,h4,h5,h6,.cfw-name{
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 100;
+  font-family:@headerFont;
   text-transform: uppercase;
   b{
     color: @red;
@@ -48,7 +54,7 @@ p{
 /*Tabs*/
 .nav-tabs>li{
   text-transform: uppercase;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family:@headerFont;
   margin: auto 5%;
   font-size: 18px;
 
