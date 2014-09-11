@@ -37,8 +37,8 @@
           <file leaf-file-name="clients.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/partials/clients.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.67671895" vertical-offset="0" max-vertical-offset="1003">
-                  <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+                <state vertical-scroll-proportion="0.7177322" vertical-offset="0" max-vertical-offset="1003">
+                  <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -489,7 +489,11 @@
       <created>1410407131377</created>
       <updated>1410407131377</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="clients">
+      <created>1410407964016</created>
+      <updated>1410407964016</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -533,7 +537,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="About page added" />
     <MESSAGE value="Header links now highlighting" />
     <MESSAGE value="Brand added and about page tabs updated" />
     <MESSAGE value="About cleaned up and content hidden from home page" />
@@ -558,7 +561,8 @@
     <MESSAGE value="powered by in new tab" />
     <MESSAGE value="ticket link and fade added" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="clients" />
+    <option name="LAST_COMMIT_MESSAGE" value="clients" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -958,8 +962,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/clients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67671895" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.7177322" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding />
         </state>
       </provider>
