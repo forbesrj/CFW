@@ -12,4 +12,15 @@ app.config(['$routeProvider', function($routeProvider){
         .when('/schedule', {templateUrl:'partials/schedule.html'})
         .when('/talent', {templateUrl:'partials/talent.html'})
         .otherwise({redirectTo: '/', templateUrl:'partials/home.html'})
-}]);
+}]).directive('routeFade', function() {
+    return {
+        compile: function(elm) {
+            console.log('compiling');
+            $(elm).css('opacity', 0.1);
+            return function(scope, elm, attrs) {
+                console.log('animating');
+                $(elm).animate({ opacity : 1.0 }, 1000 );
+            };
+        }
+    };
+});
