@@ -13,6 +13,7 @@ app.config(['$routeProvider', function($routeProvider){
         .when('/social', {templateUrl:'partials/social.html'})
         .when('/schedule', {templateUrl:'partials/schedule.html'})
         .when('/talent', {templateUrl:'partials/talent.html'})
+        .when('/videos', {templateUrl:'partials/videos.html'})
         .otherwise({redirectTo: '/', templateUrl:'partials/home.html'})
 }]).directive('routeFade', function() {
     return {
