@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07c2ac15-20ab-4224-ab5b-d5e2a52d7fbf" name="Default" comment="">
+    <list default="true" id="07c2ac15-20ab-4224-ab5b-d5e2a52d7fbf" name="Default" comment="Press">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/img/press/askmissa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/img/press/examiner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/img/press/fcfashionista.jpg" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\Index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\media\img\denver-post.jpg" afterPath="$PROJECT_DIR$/media/img/press/denver-post.jpg" />
+      <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\media\img\tribune.gif" afterPath="$PROJECT_DIR$/media/img/press/tribune.gif" />
+      <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\media\img\westword.png" afterPath="$PROJECT_DIR$/media/img/press/westword.png" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials\About.html" afterPath="$PROJECT_DIR$/partials/about.html" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials\Press.html" afterPath="$PROJECT_DIR$/partials/press.html" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials\Social.html" afterPath="$PROJECT_DIR$/partials/social.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/designers.html" afterPath="$PROJECT_DIR$/partials/designers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/global.css" afterPath="$PROJECT_DIR$/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/global.less" afterPath="$PROJECT_DIR$/css/less/global.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/partners.html" afterPath="$PROJECT_DIR$/partials/partners.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="1f45f5f1-1080-4965-9bca-0629c057efaa" name="Failed commit: Default" comment="About page added" />
@@ -67,11 +69,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="press.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="press.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/partials/press.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.57160646" vertical-offset="0" max-vertical-offset="803">
-                  <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+                <state vertical-scroll-proportion="0.8827839" vertical-offset="212" max-vertical-offset="1275">
+                  <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -132,11 +134,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="global.less" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="global.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/less/global.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.27612904" vertical-offset="1758" max-vertical-offset="2754">
-                  <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.09701493" vertical-offset="1758" max-vertical-offset="2754">
+                  <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -228,9 +230,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -341,11 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sponsors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2013" />
+              <option name="myItemId" value="press" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,11 +375,11 @@
       <recent name="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\media\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\media\img\press" />
       <recent name="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\media\img\icon" />
       <recent name="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials" />
       <recent name="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\js\frameworks" />
       <recent name="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\js\bootstrap" />
-      <recent name="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -581,12 +580,20 @@
       <created>1411074867610</created>
       <updated>1411074867610</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Partners added and tab fade added">
+      <created>1411079312647</created>
+      <updated>1411079312647</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added images to git">
+      <created>1411079792515</created>
+      <updated>1411079792515</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31463146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -599,7 +606,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32138857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3608742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32563257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -625,8 +632,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="fixed all button" />
-    <MESSAGE value="Removed text shadow" />
     <MESSAGE value="Logo added" />
     <MESSAGE value="in the media update" />
     <MESSAGE value="Brand link added. Main nav updated" />
@@ -650,7 +655,9 @@
     <MESSAGE value="Home page responsiveness" />
     <MESSAGE value="Clients changed to designers" />
     <MESSAGE value="Partners added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partners added" />
+    <MESSAGE value="Partners added and tab fade added" />
+    <MESSAGE value="Added images to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added images to git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1031,14 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/global.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27612904" vertical-offset="1758" max-vertical-offset="2754">
-          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/videos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.076923" vertical-offset="79" max-vertical-offset="1819">
@@ -1051,8 +1050,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/press.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57160646" vertical-offset="0" max-vertical-offset="803">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.8827839" vertical-offset="212" max-vertical-offset="1275">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09701493" vertical-offset="1758" max-vertical-offset="2754">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
         </state>
       </provider>
