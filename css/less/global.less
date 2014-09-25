@@ -6,6 +6,18 @@
 @bodyFont: 'Josefin Sans', sans-serif;
 @headerFont: 'Raleway', Arial, sans-serif;
 
+/*fonts*/
+@font-face {
+  font-family: 'social-font';
+  src:url('../fonts/MonoSocialIconsFont/MonoSocialIconsFont-1.10.eot');
+  src:url('../fonts/MonoSocialIconsFont/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MonoSocialIconsFont/MonoSocialIconsFont-1.10.woff') format('woff'),
+  url('../fonts/MonoSocialIconsFont/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+  url('../fonts/MonoSocialIconsFont/MonoSocialIconsFont-1.10.svg#social-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*Defaults*/
 body{
   background-color: @black;
@@ -133,6 +145,34 @@ h1,h2,h3,h4,h5,h6,.cfw-name{
 .dcsns-toolbar{
   display: none;
 }
+/*Footer*/
+footer {
+  .inner {
+    width: 700px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .social {
+    font-family: 'social-font';
+    font-size: 30px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    ul li {
+      float: left;
+      a {
+        opacity: 0.3;
+        &:hover {
+          opacity: 1;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
 
 /*Modals*/
 .modal-content{
@@ -153,6 +193,23 @@ h1,h2,h3,h4,h5,h6,.cfw-name{
     margin: 0;
     &>a{
       border: none;
+    }
+  }
+}
+
+@media (max-width: 1010px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    .inner {
+      position: relative;
+      padding-bottom: 0;
+      bottom: 0;
+    }
+    .social{
+      position: relative;
+      margin-left: 20px;
+      margin-bottom: 0;
     }
   }
 }
