@@ -76,8 +76,8 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.10512821" vertical-offset="734" max-vertical-offset="1802">
-                  <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+                <state vertical-scroll-proportion="0.14871795" vertical-offset="734" max-vertical-offset="1802">
+                  <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -584,7 +584,11 @@
       <created>1411760324428</created>
       <updated>1411760324428</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="index updated">
+      <created>1411760671026</created>
+      <updated>1411760671026</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -628,7 +632,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Home page responsiveness" />
     <MESSAGE value="Clients changed to designers" />
     <MESSAGE value="Partners added" />
     <MESSAGE value="Partners added and tab fade added" />
@@ -653,7 +656,8 @@
     <MESSAGE value="Social responsiveness fix" />
     <MESSAGE value="ning in new tab" />
     <MESSAGE value="about" />
-    <option name="LAST_COMMIT_MESSAGE" value="about" />
+    <MESSAGE value="index updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="index updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1039,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10512821" vertical-offset="734" max-vertical-offset="1802">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.14871795" vertical-offset="734" max-vertical-offset="1802">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
           <folding />
         </state>
       </provider>
