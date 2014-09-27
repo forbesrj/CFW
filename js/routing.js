@@ -11,7 +11,7 @@ app.config(['$routeProvider', function($routeProvider){
         .when('/partners', {templateUrl:'partials/partners.html'})
         .when('/designers', {templateUrl:'partials/designers.html'})
         .when('/social', {templateUrl:'partials/social.html'})
-        .when('/schedule', {templateUrl:'partials/schedule.html'})
+        .when('/events', {templateUrl:'partials/events.html'})
         .when('/talent', {templateUrl:'partials/talent.html'})
         .when('/videos', {templateUrl:'partials/videos.html'})
         .otherwise({redirectTo: '/', templateUrl:'partials/home.html'})
