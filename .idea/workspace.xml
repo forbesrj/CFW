@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07c2ac15-20ab-4224-ab5b-d5e2a52d7fbf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/img/press/Designer_Ads-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/img/press/Designer_Ads-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/img/press/proclamation.jpg" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\Index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials\About.html" afterPath="$PROJECT_DIR$/partials/about.html" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials\Press.html" afterPath="$PROJECT_DIR$/partials/press.html" />
@@ -48,8 +47,8 @@
           <file leaf-file-name="press.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/partials/press.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.74615383" vertical-offset="506" max-vertical-offset="1360">
-                  <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+                <state vertical-scroll-proportion="0.71666664" vertical-offset="580" max-vertical-offset="1377">
+                  <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +77,8 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1802">
-                  <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+                <state vertical-scroll-proportion="-18.884615" vertical-offset="478" max-vertical-offset="1802">
+                  <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -688,7 +687,11 @@
       <created>1411851601620</created>
       <updated>1411851601620</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Designer ads added">
+      <created>1411853051923</created>
+      <updated>1411853051923</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -732,7 +735,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added images to git" />
     <MESSAGE value="Press content added" />
     <MESSAGE value="Core era added back in video controls hidden" />
     <MESSAGE value="Justice fixesz" />
@@ -757,7 +759,8 @@
     <MESSAGE value="2012 and 2014 designers updated" />
     <MESSAGE value="for the press now appears first" />
     <MESSAGE value="Press updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Press updated" />
+    <MESSAGE value="Designer ads added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Designer ads added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1109,14 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1802">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/designers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.148149" vertical-offset="1543" max-vertical-offset="2346">
@@ -1138,10 +1133,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.884615" vertical-offset="478" max-vertical-offset="1802">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/press.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74615383" vertical-offset="506" max-vertical-offset="1360">
-          <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.71666664" vertical-offset="580" max-vertical-offset="1377">
+          <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
           <folding />
         </state>
       </provider>
