@@ -6,7 +6,6 @@
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials\About.html" afterPath="$PROJECT_DIR$/partials/about.html" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials\Press.html" afterPath="$PROJECT_DIR$/partials/press.html" />
       <change type="MOVED" beforePath="C:\Users\Ryan\WebstormProjects\Colorado Fashion Week\partials\Social.html" afterPath="$PROJECT_DIR$/partials/social.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/events.html" afterPath="$PROJECT_DIR$/partials/events.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="1f45f5f1-1080-4965-9bca-0629c057efaa" name="Failed commit: Default" comment="About page added" />
@@ -44,10 +43,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="events.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="events.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/partials/events.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.83063513" vertical-offset="3957" max-vertical-offset="4913">
+                <state vertical-scroll-proportion="-60.96154" vertical-offset="3039" max-vertical-offset="4913">
                   <caret line="272" column="31" selection-start-line="272" selection-start-column="31" selection-end-line="272" selection-end-column="31" />
                   <folding />
                 </state>
@@ -64,11 +63,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="about.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/partials/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="2754" max-vertical-offset="2975">
-                  <caret line="162" column="10" selection-start-line="162" selection-start-column="10" selection-end-line="162" selection-end-column="10" />
+                <state vertical-scroll-proportion="0.3251418" vertical-offset="610" max-vertical-offset="2975">
+                  <caret line="46" column="85" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
                   <folding />
                 </state>
               </provider>
@@ -138,11 +137,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cover.less" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="cover.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/less/cover.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.16828087" vertical-offset="2292" max-vertical-offset="3366">
-                  <caret line="143" column="3" selection-start-line="143" selection-start-column="3" selection-end-line="143" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.682971" vertical-offset="2292" max-vertical-offset="3366">
+                  <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -192,7 +191,6 @@
         <option value="$PROJECT_DIR$/partials/home.html" />
         <option value="$PROJECT_DIR$/partials/video.html" />
         <option value="$PROJECT_DIR$/partials/videos.html" />
-        <option value="$PROJECT_DIR$/partials/about.html" />
         <option value="$PROJECT_DIR$/partials/partners.html" />
         <option value="$PROJECT_DIR$/css/less/global.less" />
         <option value="$PROJECT_DIR$/css/less/cover.less" />
@@ -201,6 +199,7 @@
         <option value="$PROJECT_DIR$/js/routing.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/partials/events.html" />
+        <option value="$PROJECT_DIR$/partials/about.html" />
       </list>
     </option>
   </component>
@@ -640,30 +639,34 @@
       <created>1412006237458</created>
       <updated>1412006237459</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Added 7th">
+      <created>1412009209483</created>
+      <updated>1412009209483</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="835" y="0" width="1085" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3068309" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33405876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1697561" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30760625" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878049" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1697561" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22146341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30760625" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32474804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3068309" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -684,7 +687,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="JTA nav margins updated" />
     <MESSAGE value="JTA about contemt" />
     <MESSAGE value="lose fixed" />
     <MESSAGE value="iPhone fix" />
@@ -709,7 +711,8 @@
     <MESSAGE value="proclamation" />
     <MESSAGE value="Events added" />
     <MESSAGE value="Fixed events link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed events link" />
+    <MESSAGE value="Added 7th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 7th" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -996,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="2975">
-          <caret line="162" column="10" selection-start-line="162" selection-start-column="10" selection-end-line="162" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/img/sponsors/2014/cassandra.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1079,7 +1074,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83063513" vertical-offset="3957" max-vertical-offset="4913">
+        <state vertical-scroll-proportion="-60.96154" vertical-offset="3039" max-vertical-offset="4913">
           <caret line="272" column="31" selection-start-line="272" selection-start-column="31" selection-end-line="272" selection-end-column="31" />
           <folding />
         </state>
@@ -1087,8 +1082,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/less/cover.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16828087" vertical-offset="2292" max-vertical-offset="3366">
-          <caret line="143" column="3" selection-start-line="143" selection-start-column="3" selection-end-line="143" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.682971" vertical-offset="2292" max-vertical-offset="3366">
+          <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3251418" vertical-offset="610" max-vertical-offset="2975">
+          <caret line="46" column="85" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
           <folding />
         </state>
       </provider>
