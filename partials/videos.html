@@ -1,4 +1,4 @@
-<div class="content container-fluid">
+<div class="content social">
     <h1>Colorado <b>Fashion</b> Week <b>Videos</b></h1>
     <div class="row">
         <div class="col-md-8">
@@ -16,6 +16,7 @@
             <iframe width="560" height="315" src="//www.youtube.com/embed/v-zEkq6ggv8" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
+    <!--div id="video-container"></div-->
 </div>
         <div id="mediaModal" class="modal fade">
             <div class="modal-dialog">
@@ -24,9 +25,8 @@
                 </div>
             </div>
         </div>
-<script>
-    // Call this function at the end of the closing </body> tag.
 
+<script>
     function optimizeYouTubeEmbeds() {
         // Get all iframes
         var frames = document.getElementsByTagName( 'iframe' );
@@ -100,3 +100,6 @@
     });
     optimizeYouTubeEmbeds();
 </script>
+
+<!--script src="./js/lib/youtube/auth.js" type="text/javascript"></script>
+<script src="./js/lib/youtube/my_uploads.js" type="text/javascript"></script-->
